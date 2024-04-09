@@ -14,3 +14,11 @@ You may use either the ** operator or math.pow(x,y) for your exponents
 You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
 
  '''
+
+a = 5
+b = 8
+sum = a**2 + b**2
+c = sum**0.5
+c = round(c,2)
+
+print(f"The value of the hypotenuse is {c}.")
